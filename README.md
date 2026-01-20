@@ -48,23 +48,25 @@ The business problem is to ensure a stable supply ofrental bikes in urban cities
 ```
 bike-rental-ml-regression/
 │
-├── README.md
-├── .gitignore
-├── requirements.txt
-|
-├──outcome
-|  |
-│  ├──Bike rental report.pptx
+├── README.md              # Project overview
+├── .gitignore             # Ignore unnecessary files
+├── requirements.txt       # Dependencies for Streamlit Cloud
 │
-├── notebooks/                  # Jupyter notebooks
-│   |
-│   ├── bike-rental-model-python-ml.ipynb
+├── dataset/               # Data files (keep small or sample versions here)
+│   ├── bike_rental.csv
+│   └── another_file.csv
 │
-├── scripts/                    # Python scripts for ingestion and processing
+├── outcome/               # Reports, presentations
+│   └── Bike rental report.pptx
+│
+├── notebooks/             # Jupyter notebooks for experiments
+│   └── bike-rental-model-python-ml.ipynb
+│
+├── scripts/               # Python scripts for pipeline + app logic
 │   ├── bike_pipeline.pkl
 │   └── bike_model_app.py
 │
-├── Deployement/                  
+├── Deployement/           # Deployment-related assets
 │   └── Bike_rental_deployment.PNG
 
 ```
