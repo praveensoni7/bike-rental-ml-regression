@@ -153,7 +153,7 @@ git clone https://github.com/your-username/bike-rental-ml-regression.git
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Praveen soni**
+**Praveen soni**<br>
 📧 Email: sonipraveen220@gmail.com <br>
 🔗 [LinkedIn](https://www.linkedin.com/in/praveensoni7/) <br>
 🔗[Streamlit](https://bike-rental-ml-regression-ps220.streamlit.app/) 
