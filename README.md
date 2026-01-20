@@ -10,7 +10,7 @@ _ Accurately forecast urban bike rental demand using machine learning, data-driv
 - <a href = "#tool--technologies" >Tools & Techologies </a>
 - <a href = "# project-structure"> project Structure </a>
 - <a href = "#data-cleaning-- preparation" >Data Cleaning & Preparation </a>
-- <a herf = "#exploratory-data-analysis- eda">Exploratory Data Analysis (EDA)</a>
+- <a herf = "#exploratory-data-analysis-eda">Exploratory Data Analysis </a>
 - <a href = "#research-questions--key-findings">Research questions & Key Findings</a>
 - <a href = "#Deployementpage">Deployement</a>
 - <a href = "#How-to-run-this-project">How to run This Project </a>
@@ -80,7 +80,7 @@ bike-rental-ml-regression/
 - Changed the data types of numerical columns which represents categories. (like season, year, month, temp, atemp, humidity, windspeed, casual, registered, count to categorical data type).
 
 ---
-<h2><a herf = "#exploratory-data-analysis- eda"></a>Exploratory Data Analysis (EDA)</h2>
+<h2><a herf = "#exploratory-data-analysis-eda"> </a>Exploratory Data Analysis </h2>
 
 **Missing values:**
 - There are null values in the columns, so imputed categorical features with the mode and numerical features with the median using KNN Imputer.
